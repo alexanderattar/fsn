@@ -1,0 +1,4 @@
+type ENSName @entity {
+  id: ID!
+  ensName: String
+}
