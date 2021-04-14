@@ -4,9 +4,9 @@ This project imagines building a Name Service for Foundation similar to Ethereum
 
 ENS/FSN names are registered to the database and notifications are only sent for new names that haven't previously been registered. The Graph is used to index smart-contract events when new names are added. The application is full-stack and includes a very minimal UI for entering names, signing ethereum transactions via MetaMask, and saving the names to the database. Finally, Twilio can be used to send notifications for new names to hardcoded phone numbers, but the application also logs which notifications are sent to the console.
 
-The application is live on [Railway](https://34d973c096fd.up.railway.app/)
-The smart-contract viewable on [Etherscan](https://goerli.etherscan.io/address/0x468cE82433c6739d6A36a58F771824C33A656edA)
-The subgraph is viewable in [The Graph explorer](https://thegraph.com/explorer/subgraph/alexanderattar/fsn)
+- The application is live on [Railway](https://fsn-production.up.railway.app/)
+- The smart-contract viewable on [Etherscan](https://goerli.etherscan.io/address/0x468cE82433c6739d6A36a58F771824C33A656edA)
+- The subgraph is viewable in [The Graph explorer](https://thegraph.com/explorer/subgraph/alexanderattar/fsn)
 
 ## ✨ Features
 
